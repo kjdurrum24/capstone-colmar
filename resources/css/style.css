@@ -6,6 +6,8 @@ body {
 font-family: 'Open Sans', sans-serif;
 }
 
+/* --- Header CSS --- */
+
 header {
   background-color: white;
   display: block;
@@ -61,4 +63,73 @@ nav {
   color: #383838;
   font-size: 1rem;
   text-decoration: none;
+}
+
+.mobile {
+  display: none;
+}
+
+/* Main Banner CSS*/
+
+h1 {
+  font-size: 2.15rem;
+  color: #383838;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.45rem;
+  color: #383838;
+}
+
+.main-banner {
+  background-color: #DCDCDC;
+  margin: 0 auto;
+}
+
+.main-banner .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-banner {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.left-banner img {
+  width: 100%;
+}
+
+.right-banner {
+  width: 440px;
+}
+
+.slogan {
+  height: auto;
+  padding-left: 20px;
+  margin-right: 60px;
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.slogan h4 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.slogan a {
+  background-color: #383838;
+  color: white;
+  padding: 16px 0px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.slogan a:hover {
+  background-color: #808080;
 }
