@@ -1,0 +1,64 @@
+html {
+  font-size: 16px;
+}
+
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-color: white;
+  display: block;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+.container {
+  max-width: 1050px;
+  margin: auto;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.logo span {
+  font-size: 1.5em;
+}
+
+.logo img {
+  height: 3rem;
+  padding-left: 24px;
+}
+
+.colmar {
+  color: RGBA(74, 74, 74, 1.00);
+  font-weight: 700;
+}
+
+.academy {
+  color: RGBA(155, 155, 155, 1.00);
+  font-weight: 400;
+
+}
+
+.desktop a {
+  display: inline-block;
+  padding-right: 16px;
+  color: #383838;
+  font-size: 1rem;
+  text-decoration: none;
+}
