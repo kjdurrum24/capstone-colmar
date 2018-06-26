@@ -277,6 +277,10 @@ span {
   width: 100%;
 }
 
+.courses-mobile {
+  display: none;
+}
+
 /* Thesis Section */
 
 .left-banner video {
@@ -300,4 +304,202 @@ span {
 .flex {
   display: flex;
   justify-content: space-between;
+}
+
+/* Footer */
+
+footer {
+  border-top: 1px solid #DCDCDC;
+  background-color: white;
+  height: 3.5rem;
+}
+
+.footer-nav a {
+  display: inline-block;
+  padding-right: 16px;
+  color: #383838;
+  font-size: .75rem;
+  text-decoration: none;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: .75rem;
+}
+
+footer p {
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #383838;
+}
+
+
+/* Mobile Section */
+
+@media only screen and (max-width: 480px) {
+
+.slogan {
+  margin: 32px 24px;
+  padding-left: 0px;
+  align-items: center;
+}
+
+.slogan a {
+  width: 100%;
+  background-color: #808080;
+}
+
+.main-banner .container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  padding: 0px;
+  width: 100%;
+  margin: 16px auto;
+}
+
+.right-banner {
+  width: 100%;
+}
+
+.left-banner {
+  width: 100%;
+  padding: 0px 0px;
+}
+
+.left-banner img {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+}
+
+  nav.desktop {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  nav.mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+  .box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .box img.desktop {
+    display: none;
+
+  }
+
+  .box img.mobile {
+    display: flex;
+    width: 100%;
+  }
+
+  .info3 {
+    background-color: white;
+  }
+
+  .practice {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .practice .left-banner {
+    display: none;
+  }
+
+  .practice .right-banner {
+    border-left: 0px;
+    padding: 16px 16px 32px 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .flex .right-banner {
+    display: none;
+  }
+
+  .flex .left-banner {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .learning {
+    border-top: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+    background-color: white;
+    display: block;
+  }
+
+  .learning .container {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .course-grid {
+    display: none;
+  }
+
+  .courses-mobile {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .courses-mobile a {
+    background-color: #DCDCDC;
+    color: #383838;
+    text-decoration: none;
+    padding: 16px;
+    margin-bottom: 8px;
+    font-size: 1.4rem;
+  }
+
+  .courses-mobile a:hover {
+    background-color: white;
+  }
+
+  .courses-mobile a:active {
+    background-color: white;
+  }
+
+  .flex .left-banner p {
+    display: none;
+  }
+
+  .flex .left-banner h6 {
+    display: none;
+  }
+
+  footer .container {
+    margin-top: 24px;
+  }
+
+  footer .footer-nav {
+    display: none;
+  }
 }
