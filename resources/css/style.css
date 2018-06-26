@@ -276,3 +276,28 @@ span {
 .course img {
   width: 100%;
 }
+
+/* Thesis Section */
+
+.left-banner video {
+  width: 100%;
+  object-fit: contain;
+}
+
+.thesis-section h6 {
+  padding-top: 24px;
+}
+
+.thesis-section .box img {
+  width: 35%;
+  padding: 16px;
+}
+
+.thesis-section .info1 {
+  margin-top: 32px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
