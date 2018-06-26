@@ -77,11 +77,30 @@ h1 {
   font-weight: 700;
 }
 
+h2 {
+  font-size: 1.9rem;
+  color: #383838;
+  font-weight: 700;
+}
+
 h4 {
   font-size: 1.25rem;
   font-weight: 500;
   line-height: 1.45rem;
   color: #383838;
+}
+
+h6 {
+  font-size: 1.10rem;
+  color: #383838;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 400;
+  font-size: .8rem;
+  line-height: 1.1rem;
+  color: gray;
 }
 
 .main-banner {
@@ -132,4 +151,76 @@ h4 {
 
 .slogan a:hover {
   background-color: #808080;
+}
+
+
+/* Learning Section */
+
+.practice {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-banner h2 {
+  padding-top: 32px;
+}
+
+.left-banner p {
+  padding: 24px 24px 24px 0px;
+  color: RGBA(155, 155, 155, 1.00);
+  line-height: 1.5;
+}
+
+span {
+  font-size: .75rem;
+  color: #383838;
+  line-height: .95rem;
+}
+
+.practice .right-banner {
+    border-left: 1px solid #DCDCDC;
+    padding: 16px 0px 32px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box img.desktop {
+  width: 35%;
+  padding: 16px;
+}
+
+.content {
+  padding: 16px 1px 16px 0px;
+  width: 100%;
+}
+
+.content p {
+  padding-top: 8px;
+
+}
+
+.content a {
+  color: #4ba3f4;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  padding-top: .9rem;
+}
+
+.info2 {
+    border-top: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.info3 {
+ background-color: #DCDCDC;
 }
